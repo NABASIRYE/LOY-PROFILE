@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE TITANS(NABASIRYE LOYCE)</title>  
+    <script src="https://kit.fontawesome.com/6416f079ba.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+   margin: opx;
+   text-align: center;
+   
+}
+p{ 
+    font-size: 20px;
+}
+
+
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #1684C7;
+    width: 1100px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 135px;
+    font-family: Arial;
+    margin-bottom: 20px;
+  }
+  
+    
+
+
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 12px 40px ;
+    text-decoration: none;
+    margin-top: 25px;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#EE3324;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #logo{
+    float: left;
+    width: 210px;
+ 
+}
+
+#search1{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 2px;
+    transform: skewY(0deg);
+    border:none;
+    text-align: start;
+}
+
+
+#searchbar {
+        float: right;
+      padding-right: 10px;
+        border-color: none;
+}
+#button1{
+    border: none;
+    border-radius: 2px;
+    padding: 5px 0px;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+/*page properties*/
+#page{
+    margin: 50px;    
+}
+.heading{
+    background-color: #1684c7;
+    width: 20%;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #1684c7;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+/*MY FIRST PAGE*/
+#welcome{
+    border-radius: 50px;
+    padding: 2px 0px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 15px white;
+    font-size: 30px;
+}
+.intro a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    color: #1684C7;
+
+}
+
+.firstpage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro{
+    color: white;
+    padding: 190px 40px;
+    background-image: url(page1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+
+
+
+
+/*MY SKILLS PAGE WITH A FIXED RIGHT NAV*/
+.loyright{
+    position: fixed;
+    right: 20px;
+    top: 200px;
+}
+.loyright a{
+    color: #1684C7;
+    text-decoration: none;
+    font-size: 25px;
+}
+.loyright a:hover{
+    color: red;
+}
+.loylowerabtbody a{
+  color: #1684C7;
+  font-size: 20px;
+}
+.loyabout{
+    display: flex;
+   
+}
+#abilities{
+    padding: 20px 200px;   
+}
+
+
+
+
+/*MY BLOG PAGE*/
+.blogcontainer{ 
+   text-align: center;}
+   .loylowerblog{
+   display: inline-block;
+}
+#Blog{
+    width: 400px;
+   height: 400px;
+   border-radius: 5%;
+
+}
+
+
+
+/*CONTACT ME*/
+
+
+.loylowercontact{
+    display: flex;
+    justify-content: flex-start;
+}
+input[type=text], [type=email], [type=submit], [type=search], textarea{
+    width: 130px;
+    text-align: left;
+}
+
+
+/*COMPANY FOOTER*/
+.portfooter{background-color:  #1684c7;
+             display: flex;
+             justify-content: space-evenly;
+             color: white;
+             }
+
+.footersection a{
+    color: white;
+      display: inline-block;
+      padding: 17px 10px;
+      font-size: 25px;
+      text-decoration: none;
+      }
+#midlinks a:hover{
+    color: red;
+    text-decoration: underline;
+}
+main{
+    width: 100%;
+}
+
+
+/*media querry*/
+@media only screen and (max-width: 667px) {
+   
+.navbar {
+    width: 230px;
+    padding-bottom: 0px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-bottom: 2px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    display: block;
+
+  }
+  .dropdown {
+    padding-top: 0px;
+    
+  }
+  .dropdown .dropbtn {
+    font-size: 20px;
+    padding: 8px;
+    margin: 0; }
+    .dropdown-content a {
+    padding: 0px;
+
+  }
+  #logo{
+  
+    width: 100px;}
+    #search1{
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 2px;
+    transform: skewY(0deg);
+   
+}
+#searchbar {
+      display: none;
+}
+#button1{
+    display: none;
+}
+
+#page{
+    margin-left: 10px;
+    width: 230px;   
+}
+.heading{
+   
+    width: 200px;
+    
+    border-radius: 25px;
+ 
+    margin-bottom: 10px;
+   
+}
+h1{
+    font-size: 20px;
+}
+/*querry home*/
+
+.intro a{
+    font-size: 20px;
+    padding: 3px;
+
+
+}
+
+
+.intro{
+    width: 230px;
+    
+    padding: 45px;
+    background-image: url(page1.png);
+      margin-left: 6px;
+}
+/*querry skills*/
+.loyright{
+    display: none;
+}
+.loylowerabtbody a{
+  font-size: 15px;
+  text-align: justify;
+}
+p{
+    text-align: justify;
+}
+.loyabout{
+    display: block;
+   
+}
+#abilities{
+    padding: 0px;   
+}
+/*blog*/
+   .loylowerblog{
+   display: inline-block;
+   padding: 0px;
+}
+#Blog{
+    width: 250px;
+   height: auto;}
+
+
+
+
+.loylowercontact{
+    display: block;
+    justify-content: flex-start;
+}
+input[type=text], [type=email], [type=submit], [type=search], textarea{
+    width: 130px;
+    text-align: left;
+}
+/*port footer*/
+
+.portfooter{
+             justify-content: space-evenly;
+            
+             }
+
+.footersection a{
+    
+      display: inline-block;
+      padding: 17px 10px;
+      font-size: 15px;
+      }
+    }
+
+
+ </style>
+</head>
+<body>
+
+    <main>
+        <header >
+            <img src="code-t.png" id="logo" alt="code titans logo">
+            <nav class="navbar">
+                
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Team Portfolio
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Agrey</a>
+                          <a href="#">Loyce</a>
+                          <a href="#">Bahati</a>
+                          <a href="#">Patricia</a>
+                          <a href="#">Isaac</a>
+                        </div>
+                      </div>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#"></a>
+                    <div class="search3" id="searchbar"> <form action="search" id="search" >
+                        <label for="search"></label>
+                            <input type="search" name="search" id="search1" placeholder="Search Profile..">
+                            <input id="button1" type="submit" name="submit" value="Search">
+                        </form>
+                        </div>
+                        
+            </nav>
+        </header>
+       
+
+
+
+
+
+
+
+
+        <!--welcome page-->
+        <div class="intro"><h1>Hello, I'm #Loyce.<br>I'm a <s>junior</s> web developer.</h1>
+           <button id="welcome"><em><a href="#myskills">View my work!</a></em></button>
+        </div>
+
+
+
+                               <!--SKILLS-->
+       <div class="loyabout" id="page">
+           <div class="loyleftabt">
+               <div class="heading" id="myskills"><h1><u>SKILLS</u></h1></div>
+               <div class="loymiddleabtbody">
+                   <div id="abilities"><h2>Problem Solving</h2><p>I can take vague problems and requirements and break them down into steps and solutions, I'm good at thinking abstractly and putting together systems with many moving parts. I can self-manage, work to deadlines, organise projects and present well-structured and complete deliverables.</p><h2>Technical skills</h2><p>I'm good 
+                       at programming languages like python, java script and powershell. I use programming tools like CSS(3) and HTML(5)</p></div> 
+               </div>
+               <div class="loylowerabtbody"><p>I'm a front-end developer <a href="#contact">Lets make something special</a></p></div>
+           </div>
+           <div class="loyright">
+               <div class="loytittles" ><a href="#logo">PORTFOLIO</a></div>
+               <div class="loytittles"><a href="#myskills">SKILLS</a></div>
+               <div class="loytittles"><a href="#blog">BLOG</a></div>
+               <div class="loytittles"><a href="#contact">CONTACT ME</a></div>
+           </div>
+       </div>
+
+
+        
+
+                            <!--BLOG-->
+       <div class="loyblog" id="page">
+           <div class="heading" id="blog"><h1><u>BLOG</u></h1></div>
+           <div class="blogcontainer"><div class="loylowerblog"><a href="https://medium.com/@loycenabs/my-first-day-at-edu-outbox-67a4f996ea5f"><img id="Blog" src="blog.png"></a></div></div>
+           
+       </div>
+       
+
+                           <!--CONTACT-->
+       <div class="loycontact" id="page">
+           <div class="heading" id="contact"><h1><u>CONTACT ME</u></h1></div>
+
+           <div class="loylowercontact">
+
+             <div class="loyleftcontact"><p>Have a question or want to work together!</p>
+                
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Your name.."><br><br>
+                    <input type="email" id="mail" name="mail" placeholder="Your Email.."><br><br>
+                    <textarea id="Message" name="Message" placeholder="Message.." style="height:60px"></textarea><br>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+                
+             </div>
+             <div class="loymiddlecontact"><img src="loypic.png" align="left"><p>Iam a Kampala based freelancer focused on crafting clean and user friendly websites<br>
+                <a href="https://www.facebook.com/loyce.nabasirye"><i class="fab fa-facebook fa-2x"></i></a><a href="https://github.com/NABASIRYE">
+                    <i class="fab fa-github fa-2x"></i></a><a href="https://www.linkedin.com/in/nabasirye-loyce-21306a1ab/"><i class="fab fa-linkedin fa-2x"></i></a></p>
+            </div>
+                <div></div>
+            </div>
+        </div>
+
+
+
+        <!--ORGANISATION FOOTER-->
+
+<hr>
+        <div class="portfooter">
+            <div class="footersection"><h2>&copy; CODE TITANS 2020</h2></div>
+            <div class="footersection" id="midlinks"><a href="">Home</a><a href="">Projects</a><a href="">About Us</a><a href="">Contact Us</a></div>
+            <div class="footersection"><a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-github"></i></a> <a href="#"><i class="fab fa-linkedin"></i></a></div>
+        </div>
+</main>
+</body>
+</html>
